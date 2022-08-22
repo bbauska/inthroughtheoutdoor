@@ -38,6 +38,7 @@ For instance, several JSX elements written as siblings with no parent wrapper el
 Here's an example:
 
 Valid JSX:
+
 ```
 <div>
   <p>Paragraph One</p>
@@ -47,6 +48,7 @@ Valid JSX:
 ```
 
 Invalid JSX:
+
 ```
 <p>Paragraph One</p>
 <p>Paragraph Two</p>
@@ -95,6 +97,7 @@ One key difference in JSX is that you can no longer use the word class to define
 In fact, the naming convention for all HTML attributes and event references in JSX become camelCase. For example, a click event in JSX is onClick, instead of onclick. Likewise, onchange becomes onChange. While this is a subtle difference, it is an important one to keep in mind moving forward.
 
 Apply a class of myDiv to the div provided in the JSX code.
+
 ```
 const JSX = (
   <div>
@@ -214,6 +217,7 @@ When React encounters a custom HTML tag that references another component (a com
 In the code editor, there is a simple functional component called ChildComponent and a class component called ParentComponent. Compose the two together by rendering the ChildComponent within the ParentComponent. Make sure to close the ChildComponent tag with a forward slash.
 
 Note: ChildComponent is defined with an ES6 arrow function because this is a very common practice when using React. However, know that this is just a function. If you aren't familiar with the arrow function syntax, please refer to the JavaScript section.
+
 ```
 const ChildComponent = () => {
   return (
@@ -247,6 +251,7 @@ The last challenge showed a simple way to compose two components, but there are 
 Component composition is one of React's powerful features. When you work with React, it is important to start thinking about your user interface in terms of components like the App example in the last challenge. You break down your UI into its basic building blocks, and those pieces become the components. This helps to separate the code responsible for the UI from the code responsible for handling your application logic. It can greatly simplify the development and maintenance of complex projects.
 
 There are two functional components defined in the code editor, called TypesOfFruit and Fruits. Take the TypesOfFruit component and compose it, or nest it, within the Fruits component. Then take the Fruits component and nest it within the TypesOfFood component. The result should be a child component, nested within a parent component, which is nested within a parent component of its own!
+
 ```
 const TypesOfFruit = () => {
   return (
@@ -289,7 +294,5 @@ class TypesOfFood extends React.Component {
   }
 };
 ```
-
-## 
   
   
