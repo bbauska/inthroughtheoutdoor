@@ -38,7 +38,7 @@ You can choose any of the methods that is most convenient for you.
   - $ git config --global user.name "Your Name"
 - To configure your email to be used by Git, type the following at the prompt:
   - $ git config --global user.mail "Your E-mail Address"
-- You can check your default Git global configuration, you can type the following at the prompt:
+- To check your default Git global configuration, you can type the following at the DOS prompt:
   - $ git config --list
 
 ## Conclusions
