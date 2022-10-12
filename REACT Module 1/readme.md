@@ -1,5 +1,5 @@
 # Module 1 - Introduction to React
-- ## Full Stack Web Development
-- ## Setting Up your Development Environment: Git and Node
-- ## Introduction to React
-- ## React Components
+1. ## Full Stack Web Development
+2. ## Setting Up your Development Environment: Git and Node
+3. ## Introduction to React
+4. ## React Components
