@@ -34,4 +34,13 @@ You can choose any of the methods that is most convenient for you.
 - Open a cmd window or terminal on your computer.
 - Check to make sure that Git is installed and available on the command line, by typing the following at the command prompt:
   - $ git --version
+- To configure your user name to be used by Git, type the following at the prompt:
+  - $ git config --global user.name "Your Name"
+- To configure your email to be used by Git, type the following at the prompt:
+  - $ git config --global user.mail <your e-mail address>
+- You can check your default Git global configuration, you can type the following at the prompt:
+  - $ git config --list
+
+## Conclusions
+At the end of this exercise you should have Git available on the command-line of your computer.
 
