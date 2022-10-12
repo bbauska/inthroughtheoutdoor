@@ -29,3 +29,9 @@ Installing some of the GUI tools like GitHub Desktop will also install Git on yo
 On a Mac, setting up XCode command-line tools also will set up Git on your computer.
 
 You can choose any of the methods that is most convenient for you.
+
+## Some Global Configuration for Git
+- Open a cmd window or terminal on your computer.
+- Check to make sure that Git is installed and available on the command line, by typing the following at the command prompt:
+-- git --version
+
