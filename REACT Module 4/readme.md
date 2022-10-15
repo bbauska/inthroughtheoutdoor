@@ -1,9 +1,9 @@
-# More Redux and Clien-Server Communication
+# More Redux and Client-Server Communication
 
 - ## Redux Actions
 - ## Redux Thunk
 - ## Client-Server Communication
 - ## Fetch
 - ## React Animations
-- ## Build and Deployment
+- ## Building and Deployment
 - ## Testing
