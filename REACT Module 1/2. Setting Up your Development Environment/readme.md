@@ -1,4 +1,4 @@
-# Git and Node
+# 1.2 - Git and Node - Setting Up your Development Environment
 
 At the end of this lesson you should have set up Git and Node.js on your computer. You can skip this lesson if you have already completed this as part of an earlier course in the specialization. At the end of this lesson, you will be able to:
 
