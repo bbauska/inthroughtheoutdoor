@@ -44,3 +44,16 @@ You can choose any of the methods that is most convenient for you.
 ## Conclusions
 At the end of this exercise you should have Git available on the command-line of your computer.
 
+## Additional Resources (Git)
+•	Git site http://git-scm.com.
+•	Installing Git chapter from Pro Git
+•	Git reference manual
+•	Quick reference guides: GitHub Cheat Sheet (PDF) | Visual Git Cheat Sheet (SVG | PNG)
+•	Atlassian comprehensive Git tutorial
+
+Additional Resources (Node.js and NPM)
+•	Nodejs.org
+•	Npmjs.com
+•	Node API Documentation
+•	NPM Documentation
+•	lite-server
