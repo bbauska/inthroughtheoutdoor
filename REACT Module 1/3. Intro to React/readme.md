@@ -1,4 +1,4 @@
-# 2. Intro to React
+# 1.3 Intro to React
 
 In this module we get a quick introduction to front-end JavaScript frameworks and libraries, followed by an introduction to React. We will also learn about React components and JSX.
 
