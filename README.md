@@ -75,7 +75,9 @@ The code editor has a JSX element similar to what you created in the last challe
 <h3>Render HTML Elements to the DOM</h3>
 So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
 
-ReactDOM offers a simple method to render React elements to the DOM which looks like this: ReactDOM.render(componentToRender, targetNode), where the first argument is the React element or component that you want to render, and the second argument is the DOM node that you want to render the component to.
+ReactDOM offers a simple method to render React elements to the DOM which looks like this: 
+
+    ReactDOM.render(componentToRender, targetNode), where the first argument is the React element or component that you want to render, and the second argument is the        DOM node that you want to render the component to.
 
 As you would expect, ReactDOM.render() must be called after the JSX element declarations, just like how you must declare variables before using them.
 
@@ -138,8 +140,10 @@ Components are the core of React. Everything in React is a component and here yo
 
 There are two ways to create a React component. The first way is to use a JavaScript function. Defining a component in this way creates a stateless functional component. The concept of state in an application will be covered in later challenges. For now, think of a stateless component as one that can receive data and render it, but does not manage or track changes to that data. (We'll cover the second way to create a React component in the next challenge.)
 
-To create a component with a function, you simply write a JavaScript function that returns either JSX or null. One important thing to note is that React requires your function name to begin with a capital letter. Here's an example of a stateless functional component that assigns an HTML class in JSX:
- ```
+To create a component with a function, you simply write a JavaScript function that returns either JSX or null. One important thing to note is that React requires your function name to begin with a capital letter. 
+Here's an example of a stateless functional component that assigns an HTML class in JSX:
+
+```
 const DemoComponent = function() {
   return (
     <div className='customClass' />
