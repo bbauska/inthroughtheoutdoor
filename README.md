@@ -119,9 +119,9 @@ Another important way in which JSX differs from HTML is in the idea of the self-
 
 In HTML, almost all tags have both an opening and closing tag: <div></div>; the closing tag always has a forward slash before the tag name that you are closing. However, there are special instances in HTML called “self-closing tags”, or tags that don’t require both an opening and closing tag before another tag can start.
 
-For example the line-break tag can be written as <br> or as <br />, but should never be written as <br></br>, since it doesn't contain any content.
+For example the line-break tag can be written as &lt;br&gt; or as &lt;br /&gt;, but should never be written as &lt;br&gt;&lt;/br&gt;, since it doesn't contain any content.
 
-In JSX, the rules are a little different. Any JSX element can be written with a self-closing tag, and every element must be closed. The line-break tag, for example, must always be written as <br /> in order to be valid JSX that can be transpiled. A <div>, on the other hand, can be written as <div /> or <div></div>. The difference is that in the first syntax version there is no way to include anything in the <div />. You will see in later challenges that this syntax is useful when rendering React components.
+In JSX, the rules are a little different. Any JSX element can be written with a self-closing tag, and every element must be closed. The line-break tag, for example, must always be written as &lt;br /&gt; in order to be valid JSX that can be transpiled. A &lt;div&gt;, on the other hand, can be written as &lt;div /&gt; or &lt;div&gt;&lt;/div&gt;. The difference is that in the first syntax version there is no way to include anything in the &lt;div /&gt;. You will see in later challenges that this syntax is useful when rendering React components.
 
 Fix the errors in the code editor so that it is valid JSX and successfully transpiles. Make sure you don't change any of the content - you only need to close tags where they are needed.
 
@@ -151,7 +151,7 @@ const DemoComponent = function() {
 };
 ```
 
-After being transpiled, the <div> will have a CSS class of customClass.
+After being transpiled, the &lt;div&gt; will have a CSS class of customClass.
 
 Because a JSX component represents HTML, you could put several components together to create a more complex HTML page. This is one of the key advantages of the component architecture React provides. It allows you to compose your UI from many separate, isolated components. This makes it easier to build and maintain complex user interfaces.
 
@@ -220,7 +220,7 @@ return (
 )
 ```
 
-When React encounters a custom HTML tag that references another component (a component name wrapped in < /> like in this example), it renders the markup for that component in the location of the tag. This should illustrate the parent/child relationship between the App component and the Navbar, Dashboard, and Footer.
+When React encounters a custom HTML tag that references another component (a component name wrapped in &lt; /&gt; like in this example), it renders the markup for that component in the location of the tag. This should illustrate the parent/child relationship between the App component and the Navbar, Dashboard, and Footer.
 
 In the code editor, there is a simple functional component called ChildComponent and a class component called ParentComponent. Compose the two together by rendering the ChildComponent within the ParentComponent. Make sure to close the ChildComponent tag with a forward slash.
 
