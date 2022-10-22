@@ -1,6 +1,10 @@
-# inthroughtheoutdoor
+<h1>inthroughtheoutdoor</h1>
+<!-------------------------------------------------------------------------------------------------------->
+<!--------------------------- readme.md of inthroughtheoutdoor.bauska.org -------------------------------->
+<!-------------------------------------------------------------------------------------------------------->
+<h6>(from Geeks4Geeks, Coursera, and more)</h6>
 
-## react - front-end library
+<h3>react - front-end library</h3>
 
 > React is a popular JavaScript library for building reusable, component-driven user interfaces for web pages or applications.
 >
@@ -13,7 +17,7 @@
 > - use different lifecycle methods like componentDidMount, 
 >  - and much more.
 
-## Create a Simple JSX Element
+<h3>Create a Simple JSX Element</h3>
 React is an Open Source view library created and maintained by Facebook. It's a great tool to render the User Interface (UI) of modern web applications.
 
 React uses a syntax extension of JavaScript called JSX that allows you to write HTML directly within JavaScript. This has several benefits. It lets you use the full programmatic power of JavaScript within HTML, and helps to keep your code readable. For the most part, JSX is similar to the HTML that you have already learned, however there are a few key differences that will be covered throughout these challenges.
@@ -26,7 +30,7 @@ It's worth noting that under the hood the challenges are calling ReactDOM.render
 
 The current code uses JSX to assign a div element to the constant JSX. Replace the div with an h1 element and add the text Hello JSX! inside it.
 
-## Create a Complex JSX Element
+<h3>Create a Complex JSX Element</h3>
 The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 
 One important thing to know about nested JSX is that it must return a single element.
@@ -37,7 +41,7 @@ For instance, several JSX elements written as siblings with no parent wrapper el
 
 Here's an example:
 
-Valid JSX:
+<h3>Valid JSX:</h3>
 
 ```
 <div>
@@ -47,7 +51,7 @@ Valid JSX:
 </div>
 ```
 
-Invalid JSX:
+<h3>Invalid JSX:</h3>
 
 ```
 <p>Paragraph One</p>
@@ -61,14 +65,14 @@ An h1, a p, and an unordered list that contains three li items. You can include 
 
 Note: When rendering multiple elements like this, you can wrap them all in parentheses, but it's not strictly required. Also notice this challenge uses a div tag to wrap all the child elements within a single parent element. If you remove the div, the JSX will no longer transpile. Keep this in mind, since it will also apply when you return JSX elements in React components.
 
-## Add Comments in JSX
+<h3>Add Comments in JSX</h3>
 JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
 
 To put comments inside JSX, you use the syntax {/* */} to wrap around the comment text.
 
 The code editor has a JSX element similar to what you created in the last challenge. Add a comment somewhere within the provided div element, without modifying the existing h1 or p elements.
 
-## Render HTML Elements to the DOM
+<h3>Render HTML Elements to the DOM</h3>
 So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
 
 ReactDOM offers a simple method to render React elements to the DOM which looks like this: ReactDOM.render(componentToRender, targetNode), where the first argument is the React element or component that you want to render, and the second argument is the DOM node that you want to render the component to.
@@ -87,7 +91,7 @@ const JSX = (
 // Change code below this line
 ```
 
-## Define an HTML Class in JSX
+<h3>Define an HTML Class in JSX</h3>
 Now that you're getting comfortable writing JSX, you may be wondering how it differs from HTML.
 
 So far, it may seem that HTML and JSX are exactly the same.
@@ -106,7 +110,7 @@ const JSX = (
 );
 ```
 
-## Learn About Self-Closing JSX Tags
+<h3>Learn About Self-Closing JSX Tags</h3>
 So far, you’ve seen how JSX differs from HTML in a key way with the use of className vs. class for defining HTML classes.
 
 Another important way in which JSX differs from HTML is in the idea of the self-closing tag.
@@ -129,7 +133,7 @@ const JSX = (
 );
 ```
 
-## Create a Stateless Functional Component
+<h3>Create a Stateless Functional Component</h3>
 Components are the core of React. Everything in React is a component and here you will learn how to create one.
 
 There are two ways to create a React component. The first way is to use a JavaScript function. Defining a component in this way creates a stateless functional component. The concept of state in an application will be covered in later challenges. For now, think of a stateless component as one that can receive data and render it, but does not manage or track changes to that data. (We'll cover the second way to create a React component in the next challenge.)
@@ -161,7 +165,7 @@ const MyComponent = function() {
 }
 ```
   
-## Create a React Component
+<h3>Create a React Component</h3>
 The other way to define a React component is with the ES6 class syntax. In the following example, Kitten extends React.Component:
 
 ```
@@ -197,7 +201,7 @@ class MyComponent extends React.Component {
 };
 ```
 
-## Create a Component with Composition
+<h3>Create a Component with Composition</h3>
 Now we will look at how we can compose multiple React components together. Imagine you are building an app and have created three components: a Navbar, Dashboard, and Footer.
 
 To compose these components together, you could create an App parent component which renders each of these three components as children. To render a component as a child in a React component, you include the component name written as a custom HTML tag in the JSX. For example, in the render method you could write:
@@ -245,7 +249,7 @@ class ParentComponent extends React.Component {
 };
 ```
 
-## Use React to Render Nested Components
+<h3>Use React to Render Nested Components</h3>
 The last challenge showed a simple way to compose two components, but there are many different ways you can compose components with React.
 
 Component composition is one of React's powerful features. When you work with React, it is important to start thinking about your user interface in terms of components like the App example in the last challenge. You break down your UI into its basic building blocks, and those pieces become the components. This helps to separate the code responsible for the UI from the code responsible for handling your application logic. It can greatly simplify the development and maintenance of complex projects.
