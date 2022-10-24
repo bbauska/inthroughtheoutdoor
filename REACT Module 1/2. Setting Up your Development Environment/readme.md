@@ -46,10 +46,10 @@ At the end of this exercise you should have Git available on the command-line of
 
 ## Additional Resources (Git)
   -	[Git site](http://git-scm.com)
-  -	[Installing Git chapter from Pro Git](https://magz.techover.io/2020/03/11/pro-git-chapter-1-getting-started/
+  -	[Installing Git chapter from Pro Git](https://magz.techover.io/2020/03/11/pro-git-chapter-1-getting-started/)
   -	[Git reference manual](https://git-scm.com/docs)
-  -	Quick reference guides: [GitHub Cheat Sheet (PDF)] (https://training.github.com/)| [Visual Git Cheat Sheet (SVG | PNG)](https://github.com/hbons/git-cheat-sheet)
-  -	Atlassian comprehensive Git tutorial
+  -	[Quick reference guides: GitHub Cheat Sheet (PDF)] (https://training.github.com/)| [Visual Git Cheat Sheet (SVG | PNG)](https://github.com/hbons/git-cheat-sheet)
+  -	[Atlassian comprehensive Git tutorial](https://github.com/igorbotian/atlassian-git-tutorials)
 
 ## Additional Resources (Node.js and NPM)
   -	[Nodejs](https://nodejs.org/en/docs/guides/getting-started-guide/)
