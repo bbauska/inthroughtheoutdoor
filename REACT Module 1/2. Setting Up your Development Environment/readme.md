@@ -52,9 +52,9 @@ At the end of this exercise you should have Git available on the command-line of
   -	Atlassian comprehensive Git tutorial
 
 ## Additional Resources (Node.js and NPM)
-  -	Nodejs.org
-  -	Npmjs.com
-  -	Node API Documentation
-  -	NPM Documentation
-  -	lite-server
+  -	[Nodejs](https://nodejs.org/en/docs/guides/getting-started-guide/)
+  -	[Npmjs](https://merri.github.io/nom/)
+  -	[Node API Documentation](https://nodejs.org/api/n-api.html)
+  -	[NPM Documentation](https://docs.npmjs.com/)
+  -	[Lite Server](https://www.npmjs.com/package/lite-server)
   
